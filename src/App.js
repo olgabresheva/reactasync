@@ -31,7 +31,7 @@ function App() {
 
             <div className="container">
                 <p/>
-                <a href="">Link to GitHub</a>
+                <a href="https://github.com/olgabresheva/reactasync">Link to GitHub</a>
                 <p/>
                 <button type="button" className="btn btn-info" onClick={load}>Review Users</button>
                 <p/>

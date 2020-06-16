@@ -64,7 +64,7 @@ function UserTable(props) {
                                 ? <>
                                     <input type="text" value={userEdit.name} onChange={onUserEditChange}/>
                                     <button className="btn btn-outline-success btn-sm" onClick={saveUser}>{saveBtn}</button>
-                                    <button className="btn btn-outline-danger btn-sm"
+                                    <button className="btn btn-outline-dark btn-sm"
                                             onClick={editCancel}>{deleteBtn}</button>
                                 </>
                                 : <td onClick={() => editer(el)}>{el.name}</td>
